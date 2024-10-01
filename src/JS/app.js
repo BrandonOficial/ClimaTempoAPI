@@ -9,7 +9,7 @@ document.querySelector("#search").addEventListener("submit", async (event) => {
     return;
   }
 
-  const apiKey = "ce0aaeafed304bc9d2c936949386697e";
+  const apiKey = "Your Key in Openweather";
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURI(
     cityName
   )}&appid=${apiKey}&units=metric&lang=pt_br`;
